@@ -2,7 +2,7 @@ import FirstPageCard from "./FirstPageCard";
 import user from "../img/user.png";
 import shield from "../img/shield.png";
 import world from "../img/world.png";
-import Carrousel from "./carrousel";
+import Carrousel from "./Carrousel";
 
 function FirstPage() {
   return (
@@ -23,9 +23,9 @@ function FirstPage() {
             <br />
             vision to life with professional care and expertise.
           </p>
-          <div className="mt-[35rem] flex">
+          <div className="mt-[60rem] flex">
             <FirstPageCard
-              margin="mr-[40px]"
+              margin="mr-[60px]"
               img={user}
               text={
                 <>
@@ -34,7 +34,7 @@ function FirstPage() {
               }
             />
             <FirstPageCard
-              margin="mr-[40px]"
+              margin="mr-[60px]"
               img={shield}
               text={
                 <>
