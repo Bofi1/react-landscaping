@@ -3,12 +3,13 @@ import user from "../img/user.png";
 import shield from "../img/shield.png";
 import world from "../img/world.png";
 import Carrousel from "./Carrousel";
+import arrowWhite from "../img/arrow-white.png";
 
 function FirstPage() {
   return (
-    <div className="text-[20rem] h-[100vh] flex justify-center items-center font-['Roboto']">
-      <div className=" w-[80%] flex justify-center">
-        <div className="bg-white inline-block mr-[70rem]">
+    <div className="bg-[#fafff7] text-[20rem] h-[100vh] flex justify-center items-center font-['Roboto']">
+      <div className="w-[73%]  flex justify-between">
+        <div className=" inline-block mr-[70rem]">
           <p className="text-[18rem] text-[#83c778] font-semibold">
             YOUR DREAM GARDEN AWAITS
           </p>
@@ -50,6 +51,16 @@ function FirstPage() {
                 </>
               }
             />
+          </div>
+          <div className="flex mt-[60rem]">
+            <div className="w-[220rem] h-[60rem] bg-[#6bbf59] rounded-[60rem] text-[18rem] font-semibold flex items-center justify-center mr-[20rem]">
+              <span className="text-white mr-[13rem]">FREE ESTIMATES</span>
+              <img className="h-[15rem]" src={arrowWhite} alt="" />
+            </div>
+            {/* <div className="w-[210rem] h-[60rem] bg-[#6bbf59] rounded-[60rem] text-[18rem] font-semibold flex items-center justify-center mr-[20rem]">
+              <span className="text-white mr-[13rem]">LEARN MORE</span>
+              <img className="h-[15rem]" src={arrowWhite} alt="" />
+            </div> */}
           </div>
         </div>
         <Carrousel />

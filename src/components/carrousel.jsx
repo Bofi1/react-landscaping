@@ -31,7 +31,7 @@ function carrousel() {
           <img
             src={img.src}
             alt={img.alt}
-            className="object-cover w-[500px] h-[439rem] rounded-[10rem]"
+            className="object-cover w-[500rem] h-[591.5rem] rounded-[10rem]"
           />
         </div>
       ))}
