@@ -2,8 +2,8 @@ import FirstPageCard from "./FirstPageCard";
 import user from "../img/user.png";
 import shield from "../img/shield.png";
 import world from "../img/world.png";
-import Carrousel from "./Carrousel";
 import arrowWhite from "../img/arrow-white.png";
+import Carrousel from "./carrousel";
 
 function FirstPage() {
   return (
@@ -18,7 +18,7 @@ function FirstPage() {
             <br />
             Green Oasis
           </p>
-          <p className="text-[15rem] mt-[53rem]">
+          <p className="text-[14rem] mt-[53rem]">
             Transform your garden with our affordable, personalized gardening
             services. Let us bring your
             <br />

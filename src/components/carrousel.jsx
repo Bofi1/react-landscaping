@@ -11,7 +11,7 @@ const images = [
   { id: 4, src: `${image4}`, alt: "Imagen 4" },
 ];
 
-function carrousel() {
+function Carrousel() {
   const [activeId, setActiveId] = useState(1); // Imagen activa por defecto
 
   const toggleImage = (id) => {
@@ -39,4 +39,4 @@ function carrousel() {
   );
 }
 
-export default carrousel;
+export default Carrousel;
