@@ -18,7 +18,7 @@ function FirstPage() {
             <br />
             Green Oasis
           </p>
-          <p className="text-[14rem] mt-[53rem]">
+          <p className="text-[14rem] mt-[53rem] min-w-[581rem]">
             Transform your garden with our affordable, personalized gardening
             services. Let us bring your
             <br />

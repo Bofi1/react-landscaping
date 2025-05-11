@@ -2,9 +2,9 @@ import SecondPageCard from "./SecondPageCard";
 
 function SecondPage() {
   return (
-    <div className="flex flex-col h-[100vh] items-center">
-      <div className="flex flex-col justify-center mt-[50rem] mb-[70rem]">
-        <p className="text-[63rem] font-semibold mb-[20rem] text-center">
+    <div className="flex flex-col h-[100vh] justify-center items-center">
+      <div className="flex flex-col justify-center items-center mb-[30rem]">
+        <p className="text-[63rem] font-semibold mb-[30rem] text-center">
           Why Choose Green Bliss Designs?
         </p>
         <p className="text-[18rem] text-center">
@@ -13,10 +13,8 @@ function SecondPage() {
         </p>
       </div>
 
-      <div className="flex justify-center flex-wrap w-[70%] h-[400rem]">
+      <div className="flex justify-center flex-wrap w-[70%] text-base">
         <SecondPageCard
-          b="1"
-          r="1"
           text1="Expert Consultation"
           text2={
             <>
@@ -27,8 +25,6 @@ function SecondPage() {
         />
 
         <SecondPageCard
-          b="1"
-          r="1"
           text1="Custom Designs"
           text2={
             <>
@@ -40,7 +36,6 @@ function SecondPage() {
         />
 
         <SecondPageCard
-          b="1"
           text1="Professional Installation"
           text2={
             <>
@@ -52,7 +47,6 @@ function SecondPage() {
         />
         <br />
         <SecondPageCard
-          r="1"
           text1="Quality Materials"
           text2={
             <>
@@ -62,7 +56,6 @@ function SecondPage() {
           }
         />
         <SecondPageCard
-          r="1"
           text1="Sustainable Practices"
           text2={
             <>
@@ -72,8 +65,7 @@ function SecondPage() {
           }
         />
         <SecondPageCard
-          text1="Guaranteed Satisfaction
-"
+          text1="Guaranteed Satisfaction"
           text2={
             <>
               We stand behind our work and guarantee <br />

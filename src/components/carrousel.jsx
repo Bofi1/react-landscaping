@@ -19,7 +19,7 @@ function Carrousel() {
   };
 
   return (
-    <div className="flex w-[700rem] items-center justify-center gap-[30px] p-4 ">
+    <div className="flex min-w-[500rem] items-center justify-center gap-[30px] p-4  flex-wrap">
       {images.map((img) => (
         <div
           key={img.id}
@@ -31,7 +31,7 @@ function Carrousel() {
           <img
             src={img.src}
             alt={img.alt}
-            className="object-cover w-[500rem] h-[591.5rem] rounded-[10rem]"
+            className="object-cover h-[591.5rem] rounded-[10rem]"
           />
         </div>
       ))}
