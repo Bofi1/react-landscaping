@@ -3,3 +3,9 @@
 html {
   font-size: 1px;
 }
+
+@media (max-width: 1680px) {
+  html {
+    font-size: 0.6px;
+  }
+}

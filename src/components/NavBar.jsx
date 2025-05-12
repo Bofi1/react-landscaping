@@ -3,7 +3,7 @@ import arrow from "../img/arrow.svg";
 function NavBar() {
   return (
     <div className="flex w-[100%] bg-white justify-center absolute top-0">
-      <nav className="w-[73%] flex  justify-between items-center font-['Roboto'] py-[18rem]">
+      <nav className="w-[1280rem] flex  justify-between items-center font-['Roboto'] py-[18rem]">
         <ul className="flex ">
           <li className="mr-[25rem] text-[15rem]">Home</li>
           <li className="mr-[25rem] text-[15rem]">Services</li>

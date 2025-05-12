@@ -1,7 +1,8 @@
 import NavBar from "./components/NavBar";
-import FirstPage from "./components/FirstPage";
-import SecondPage from "./components/SecondPage";
-import ThirdPage from "./components/ThirdPage";
+import FirstPage from "./pages/FirstPage";
+import SecondPage from "./pages/SecondPage";
+import ThirdPage from "./pages/ThirdPage";
+// import TestimonialRotator from "./components/FourthPage";
 
 function App() {
   return (

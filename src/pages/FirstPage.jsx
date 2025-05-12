@@ -1,15 +1,15 @@
-import FirstPageCard from "./FirstPageCard";
+import FirstPageCard from "../components/FirstPageCard";
 import user from "../img/user.png";
 import shield from "../img/shield.png";
 import world from "../img/world.png";
 import arrowWhite from "../img/arrow-white.png";
-import Carrousel from "./carrousel";
+import Carrousel from "../components/carrousel";
 
 function FirstPage() {
   return (
     <div className="bg-[#fafff7] text-[20rem] h-[100vh] flex justify-center items-center font-['Roboto']">
-      <div className="w-[73%]  flex justify-between">
-        <div className=" inline-block mr-[70rem]">
+      <div className="w-[1280rem] min-w-[1000rem]  grid grid-cols-2 grid-row-1 justify-between items-center">
+        <div className=" inline-block mr-[70rem] ">
           <p className="text-[18rem] text-[#83c778] font-semibold">
             YOUR DREAM GARDEN AWAITS
           </p>
@@ -26,7 +26,7 @@ function FirstPage() {
           </p>
           <div className="mt-[60rem] flex">
             <FirstPageCard
-              margin="mr-[60px]"
+              margin="mr-[60rem]"
               img={user}
               text={
                 <>
@@ -35,7 +35,7 @@ function FirstPage() {
               }
             />
             <FirstPageCard
-              margin="mr-[60px]"
+              margin="mr-[60rem]"
               img={shield}
               text={
                 <>

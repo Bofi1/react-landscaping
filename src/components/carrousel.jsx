@@ -19,7 +19,7 @@ function Carrousel() {
   };
 
   return (
-    <div className="flex min-w-[500rem] items-center justify-center gap-[30px] p-4  flex-wrap">
+    <div className="flex min-w-[600rem] items-center justify-center gap-[30rem] p-4  flex-wrap">
       {images.map((img) => (
         <div
           key={img.id}
