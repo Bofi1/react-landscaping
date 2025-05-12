@@ -3,7 +3,7 @@ import ThirdPageImg from "../components/ThirdPageImg";
 
 function ThirdPage() {
   return (
-    <div className="flex flex-col h-[100vh] justify-center items-center ">
+    <div className="flex flex-col h-[75vh] justify-center items-center ">
       <div className="w-[1280rem] ">
         <p className="text-start font-semibold text-[40rem] mb-[30rem]">
           Our Gardening Portfolio
