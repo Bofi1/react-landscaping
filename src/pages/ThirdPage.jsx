@@ -20,17 +20,17 @@ function ThirdPage() {
         </div>
       </div>
       <div className="w-[1280rem] grid grid-cols-5 grid-rows-2 gap-[10rem] mt-[50rem]">
-        <div className="w-[250rem] h-[250rem] bg-gray-600"></div>
-        <div className="w-[250rem] h-[250rem] bg-gray-600"></div>
-        <div className="w-[250rem] h-[250rem] bg-gray-600"></div>
-        <div className="w-[250rem] h-[250rem] bg-gray-600"></div>
-        <div className="w-[250rem] h-[250rem] bg-gray-600"></div>
+        <div className="w-[250rem] h-[250rem] bg-gray-600 rounded-[20rem]"></div>
+        <div className="w-[250rem] h-[250rem] bg-gray-600 rounded-[20rem]"></div>
+        <div className="w-[250rem] h-[250rem] bg-gray-600 rounded-[20rem]"></div>
+        <div className="w-[250rem] h-[250rem] bg-gray-600 rounded-[20rem]"></div>
+        <div className="w-[250rem] h-[250rem] bg-gray-600 rounded-[20rem]"></div>
 
-        <div className="w-[250rem] h-[250rem] bg-gray-600"></div>
-        <div className="w-[250rem] h-[250rem] bg-gray-600"></div>
-        <div className="w-[250rem] h-[250rem] bg-gray-600"></div>
-        <div className="w-[250rem] h-[250rem] bg-gray-600"></div>
-        <div className="w-[250rem] h-[250rem] bg-gray-600"></div>
+        <div className="w-[250rem] h-[250rem] bg-gray-600 rounded-[20rem]"></div>
+        <div className="w-[250rem] h-[250rem] bg-gray-600 rounded-[20rem]"></div>
+        <div className="w-[250rem] h-[250rem] bg-gray-600 rounded-[20rem]"></div>
+        <div className="w-[250rem] h-[250rem] bg-gray-600 rounded-[20rem]"></div>
+        <div className="w-[250rem] h-[250rem] bg-gray-600 rounded-[20rem]"></div>
       </div>
     </div>
   );

@@ -8,7 +8,7 @@ import Carrousel from "../components/carrousel";
 function FirstPage() {
   return (
     <div className="bg-[#fafff7] text-[20rem] h-[100vh] flex justify-center items-center font-['Roboto']">
-      <div className="w-[1280rem] min-w-[1000rem]  grid grid-cols-2 grid-row-1 justify-between items-center">
+      <div className="w-[1400rem] min-w-[1000rem]  grid grid-cols-2 grid-row-1 justify-between items-center">
         <div className=" inline-block mr-[70rem] ">
           <p className="text-[18rem] text-[#83c778] font-semibold">
             YOUR DREAM GARDEN AWAITS

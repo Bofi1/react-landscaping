@@ -22,7 +22,7 @@ const FadeOneByOne = () => {
         setCurrentIndex((prev) => (prev + 1) % contents.length);
         setFade(true); // inicia el fade in
       }, 500);
-    }, 2500);
+    }, 3500);
 
     return () => clearInterval(interval);
   }, []);
@@ -32,7 +32,7 @@ const FadeOneByOne = () => {
       {contents.map((text, i) => (
         <div
           key={i}
-          className={`w-[700rem] h-[200rem] bg-blue-600 rounded-2xl text-white text-center flex items-center justify-center absolute transition-opacity duration-500 px-4 text-[20rem] font-medium ${
+          className={`w-[1400rem] h-[300rem] bg-blue-600 rounded-[20px] text-white shadow-xl text-center flex items-center justify-center absolute transition-opacity duration-500 px-4 text-[20rem] font-medium ${
             i === currentIndex
               ? fade
                 ? "opacity-100"

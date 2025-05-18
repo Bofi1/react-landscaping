@@ -13,12 +13,12 @@ function SecondPage() {
         </div>
 
         <div className="grid grid-cols-3 grid-rows-2 text-[100px] justify-center items-center">
-          <div className="w-[320rem] h-[320rem] bg-[white] border-r-[1rem] border-b-[1rem] border-[#e5e5e5]"></div>
-          <div className="w-[320rem] h-[320rem] bg-[white] border-r-[1rem] border-b-[1rem] border-[#e5e5e5]"></div>
-          <div className="w-[320rem] h-[320rem] bg-[white] border-b-[1rem] border-[#e5e5e5]"></div>
+          <div className="w-[320rem] h-[320rem] bg-[white] border-r-[1px] border-b-[1px] border-[#e5e5e5]"></div>
+          <div className="w-[320rem] h-[320rem] bg-[white] border-r-[1px] border-b-[1px] border-[#e5e5e5]"></div>
+          <div className="w-[320rem] h-[320rem] bg-[white] border-b-[1px] border-[#e5e5e5]"></div>
 
-          <div className="w-[320rem] h-[320rem] bg-[white] border-r-[1rem] border-[#e5e5e5]"></div>
-          <div className="w-[320rem] h-[320rem] bg-[white] border-r-[1rem] border-[#e5e5e5]"></div>
+          <div className="w-[320rem] h-[320rem] bg-[white] border-r-[1px] border-[#e5e5e5]"></div>
+          <div className="w-[320rem] h-[320rem] bg-[white] border-r-[1px] border-[#e5e5e5]"></div>
           <div className="w-[320rem] h-[320rem] bg-[white] "></div>
         </div>
       </div>
